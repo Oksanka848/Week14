@@ -6,16 +6,15 @@ window.onload = () => {
   function init() {
     let button = document.getElementById();
     button.onclick = ButtonClick;
-    document.getElementsByClassName("result").innerHTML = result;
+    document.getElementsByClass("result").innerHTML = result;
   }
 
-  var plus = (_number1, _number2) => a + b;
+  
 
   function ButtonClick() {
-    let n1 = +prompt("Введите первое число");
-    let n2 = +prompt("Введите второе число");
-  
-    alert(`Результат вычисления = ${+n1 + +n2}`);
+    var plus = (+number1, +number2) => number1 + number2;
+    result = +number1 + +number2;
+    document.getElementsByClass("result").innerHTML = result;
   }
   
   function ButtonClick2() {
