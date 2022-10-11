@@ -40,10 +40,10 @@ function ButtonClick4() {
 }
 
 function changeColor () {
-  let div = document.getElementsByTagName('div')
-  console.log('Clicked on button', div.style)
-  div.style.color = 'red'
-  div.style.fontSize = '24px'
+  let div = document.getElementsByTagName('div') [0];
+  console.log('Clicked on button', div.style);
+  div.style.color = 'red';
+  div.style.fontSize = '24px';
 }
 
 let divs = document.getElementsByTagName('div');
