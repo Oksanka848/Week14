@@ -1,0 +1,30 @@
+.container {
+  display: block;
+
+  position: relative;
+}
+img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  position: relative;
+  display: none;
+}
+.active {
+  display: block;
+}
+.container svg {
+  position: absolute;
+  transition: stroke 0.3s;
+}
+.slider-left {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  right: 0px;
+  background-image: url(showcase/homedemo/sliderengine/ext/control_url.png);
+  opacity: 0;
+  width: 48px;
+  height: 48px;
+  background-position: -72px -136px;
+}
