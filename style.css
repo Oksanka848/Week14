@@ -31,7 +31,7 @@ button {
   justify-content: space-around;
 }
 
-.number1 {
+#number1 {
   grid-row: 1;
   width: 70%;
   height: 35%;
@@ -39,7 +39,7 @@ button {
   border: 2px solid gray;
 }
 
-.number2 {
+#number2 {
   grid-row: 2;
   width: 70%;
   height: 35%;
@@ -47,7 +47,7 @@ button {
   border: 2px solid gray;
 }
 
-.result {
+#result {
   grid-row: 4;
   width: 70%;
   height: 35%;
