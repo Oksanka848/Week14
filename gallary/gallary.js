@@ -37,10 +37,12 @@
     function imgsrc(){
         if (i!=(j-1))
             {i++;}
-            image.src=imgs[i];}
+            image.src=imgs[i];
+            slides[i].style.display = "none";}
             function imgsrc2(){
               if (i!=(j-1))
                   {i--;}
 
     image.src=imgs[i];
             }
+            
