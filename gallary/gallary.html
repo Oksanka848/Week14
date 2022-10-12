@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="/gallary/style.css" />
   </head>
   <body>
-    <div class="wrap">
     
         <div class="container">
             <div><img class="active" src="img/item1.jpg" alt="fores1/jpg"></div>
@@ -17,11 +16,14 @@
             <div><img src="img/item4.jpg" alt="fores4/jpg"></div>
             <div><img src="img/item5.jpeg" alt="fores5/jpeg"></div>
             <div><img src="img/item6.jpg" alt="fores5/jpg"></div>
-          </div>
-    </div>
-    <div class="slider-right"><img src="img/right.svg" alt="right/svg"></div>
-    <div class="slider-left"><img src="img/left.svg" alt="left/svg"></div>
+            <a class="slider-right" onclick="plusSlides(1)">❯</a>
+            <a class="slider-left" onclick="plusSlides(-1)">❮</a>      
 
+
+    
+    <div class="slider-left"><img src="img/left.svg" alt="left/svg"></div>
+    
+  </div>
     <script src="/gallary/gallary.js"></script>
     </body>
 </html>
