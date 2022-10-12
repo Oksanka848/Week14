@@ -3,20 +3,17 @@
 
   position: relative;
 }
-img {
+#mySlides {
   width: 50%;
   height: 50%;
   object-fit: cover;
   position: relative;
-  display: none;
+  
 }
 .active {
   display: block;
 }
-/*.container svg {
-  position: absolute;
-  transition: stroke 0.3s;
-}*/
+
 .slider-left , 
 .slider-right {
   cursor: pointer;
@@ -33,25 +30,9 @@ img {
   -webkit-user-select: none;
  
 }
+
 .container > .slider-right {
   right: 50%;
   border-radius: 3px 0 0 3px;
 }
 
-
-
-/*.container .slider-left img {
-  position: absolute;
-  display: block;
-  cursor: pointer;
-  top: 60%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  right: 0px;
-  
-  opacity: 0;
-  width: 48px;
-  height: 48px;
-  background-position: 72px 160px;
-}*/
