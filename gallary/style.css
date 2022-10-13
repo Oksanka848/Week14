@@ -1,7 +1,7 @@
 .container {
-  display: flex;
+  display: flexbox;
   flex-direction: row;
-  width: 50%;
+  width: 40vw;
   position: relative;
 }
 
@@ -26,6 +26,6 @@ img {
 }
 
 .container > .slider-right {
-  right: 34%;
+  right: 0%;
   border-radius: 3px 0 0 3px;
 }
